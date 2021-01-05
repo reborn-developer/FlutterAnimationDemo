@@ -3,6 +3,7 @@ import 'package:flutter_animation/peacock_push_page.dart';
 import 'package:flutter_animation/system_widget_page.dart';
 import 'package:flutter_animation/system_widget_page_2.dart';
 import 'package:flutter_animation/tween_sequence_page.dart';
+import 'package:flutter_animation/water_ripple_page.dart';
 
 import 'animated_list_page.dart';
 import 'animatedbuilder_page.dart';
@@ -45,7 +46,8 @@ class MyApp extends StatelessWidget {
       // home: AnimatedListPage(),
       // home: HeroPage(),
       // home: NavigationAnimationPage(),
-      home: PeacockPushPage(),
+      // home: PeacockPushPage(),
+      home: WaterRipplePage(),
     );
   }
 }
