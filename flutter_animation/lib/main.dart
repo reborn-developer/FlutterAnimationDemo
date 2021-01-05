@@ -5,6 +5,7 @@ import 'package:flutter_animation/tween_sequence_page.dart';
 
 import 'animated_list_page.dart';
 import 'animatedbuilder_page.dart';
+import 'hero_page.dart';
 import 'inteval_page.dart';
 
 void main() {
@@ -39,7 +40,8 @@ class MyApp extends StatelessWidget {
       // home: ScaleTransitionPage(),
       // home: AnimatedOpacityPage(),
       // home: AnimatedBuilderPage(),
-      home: AnimatedListPage(),
+      // home: AnimatedListPage(),
+      home: HeroPage(),
     );
   }
 }
