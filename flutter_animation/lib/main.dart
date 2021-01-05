@@ -7,6 +7,7 @@ import 'animated_list_page.dart';
 import 'animatedbuilder_page.dart';
 import 'hero_page.dart';
 import 'inteval_page.dart';
+import 'navigation_animation_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,7 +42,8 @@ class MyApp extends StatelessWidget {
       // home: AnimatedOpacityPage(),
       // home: AnimatedBuilderPage(),
       // home: AnimatedListPage(),
-      home: HeroPage(),
+      // home: HeroPage(),
+      home: NavigationAnimationPage(),
     );
   }
 }
