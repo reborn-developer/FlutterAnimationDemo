@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animation/peacock_push_page.dart';
 import 'package:flutter_animation/system_widget_page.dart';
 import 'package:flutter_animation/system_widget_page_2.dart';
 import 'package:flutter_animation/tween_sequence_page.dart';
@@ -43,7 +44,8 @@ class MyApp extends StatelessWidget {
       // home: AnimatedBuilderPage(),
       // home: AnimatedListPage(),
       // home: HeroPage(),
-      home: NavigationAnimationPage(),
+      // home: NavigationAnimationPage(),
+      home: PeacockPushPage(),
     );
   }
 }
